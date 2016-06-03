@@ -6,13 +6,13 @@
 <body>
   <div id="maincontent">
     <h1 id ="title">Insert your information!</h1>
-    <form action="/process" method="POST">
+    <form onsubmit="return processform()">
       <label for="username">Username</label>
       <input type="text" name="username" id="username">
       <label for="email">Email</label>
       <input type="text" name="email" id="email">
       <label for="password">Password</label>
-      <input type="password" name="password">
+      <input type="password" name="password" id="password">
       <input type="submit" value="Submit" >
     </form>
   </div>
